@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainMenu2</class>
+ <widget class="QMainWindow" name="MainMenu2">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>461</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget {
+background:#f2f2f2;
+}
+#upbar
+{
+background:lightgray;
+}
+#exit {
+border-image:url(:/images/icon/close1.png);
+}
+#exit:hover{
+border-image:url(:/images/icon/close2.png);
+}
+#minimize {
+border-image:url(:/images/icon/min1.png);
+}
+#minimize:hover{
+border-image:url(:/images/icon/min2.png);
+}
+
+QPushButton#mybalance{
+color: white;
+background-color: #32CD32;
+}
+#rentacar {
+color:white;
+background-color: #FFA500;
+}
+#addbalance {
+color:white;
+background-color: #00BFFF;
+}
+#changepass {
+color:white;
+background-color: #2F4F4F;
+}</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="upbar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>461</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="minimize">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>0</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Main menu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mybalance">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>My balance</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addbalance">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>90</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Add money</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rentacar">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>190</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Buy a car</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="changepass">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>190</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Change password</string>
+    </property>
+   </widget>
+   <zorder>upbar</zorder>
+   <zorder>minimize</zorder>
+   <zorder>exit</zorder>
+   <zorder>label</zorder>
+   <zorder>mybalance</zorder>
+   <zorder>addbalance</zorder>
+   <zorder>rentacar</zorder>
+   <zorder>changepass</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

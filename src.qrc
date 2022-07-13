@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>reg/bg.jpg</file>
+        <file>reg/ico.jpg</file>
+        <file>reg/passic.jpg</file>
+        <file>reg/peopleic.jpg</file>
+        <file>mainmenu_pic/fon_menu.jpg</file>
+        <file>mainmenu_pic/cash (1).png</file>
+        <file>mainmenu_pic/plus.png</file>
+        <file>icon/close1.png</file>
+        <file>icon/close2.png</file>
+        <file>icon/min1.png</file>
+        <file>icon/min2.png</file>
+        <file>Tesla/teslalogo.png</file>
+        <file>Tesla/teslax.png</file>
+        <file>Tesla/teslas.png</file>
+        <file>Tesla/teslay.png</file>
+        <file>Mercedes/mercedeslogo.png</file>
+        <file>Mercedes/gl63_2015.png</file>
+        <file>Mercedes/vito_2020.png</file>
+        <file>Mercedes/c_class_2016.png</file>
+        <file>Audi/a7_2018.png</file>
+        <file>Audi/audilogo.png</file>
+        <file>Audi/q8_2018.png</file>
+        <file>Audi/etron_2018.png</file>
+        <file>BMW/bmwlogo.png</file>
+        <file>BMW/ix3_2021.png</file>
+        <file>BMW/m5_2018.png</file>
+        <file>BMW/x5m_2018.png</file>
+    </qresource>
+</RCC>
